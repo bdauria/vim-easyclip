@@ -39,9 +39,9 @@ function! EasyClip#BlackHole#AddChangeBindings()
 
     let bindings = 
     \ [
-    \   ['c', '"_c', 'nx'],
-    \   ['cc', '"_S', 'n'],
-    \   ['C', '"_C', 'nx'],
+    \   ['l', '"_c', 'nx'],
+    \   ['ll', '"_S', 'n'],
+    \   ['L', '"_C', 'nx'],
     \   ['s', '"_s', 'nx'],
     \   ['S', '"_S', 'nx'],
     \ ]
